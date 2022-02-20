@@ -1,0 +1,32 @@
+.checkout__subtotal-title {
+  font-size: 1.3rem;
+  font-weight: 400;
+}
+
+.checkout__subtotal-price {
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.checkout__subtotal-subtitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(7, 126, 99);
+  margin-top: 0.2rem;
+  margin-bottom: 0.8rem;
+}
+
+.checkout__subtotal-button {
+  border: none;
+  background-color: #ffd814;
+  font-size: 1rem;
+  padding: 0.5rem 7rem;
+  border-radius: 3rem;
+  cursor: pointer;
+}
+
+.checkout__subtotal-button:hover {
+  transition: 200ms all ease-in;
+  background-color: #f3cd0f;
+}

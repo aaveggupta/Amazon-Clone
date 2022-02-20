@@ -1,0 +1,100 @@
+.signup-outer {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.signup {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1.5rem;
+}
+
+.signup__amazon-logo {
+  width: 10rem;
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+
+.signup__box-form {
+  width: 100%;
+}
+
+.signup__box {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: start;
+  width: 20rem;
+  border: 1px solid black;
+  height: 28rem;
+  padding: 1rem 1.2rem;
+}
+
+.signup__box-form-username,
+.signup__box-form-email,
+.signup__box-form-password {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.signup__box-signin {
+  margin-bottom: 0.8rem;
+  font-size: 1.8rem;
+}
+
+.signup__box-form-username-label,
+.signup__box-form-email-label,
+.signup__box-form-password-label {
+  font-weight: 600;
+  margin-bottom: 0.4rem;
+}
+
+.signup__box-form-username-input,
+.signup__box-form-email-input,
+.signup__box-form-password-input {
+  width: 100%;
+  font-size: 0.9rem;
+  padding: 0.5rem 0.3rem;
+  outline: none;
+  margin-bottom: 0.5rem;
+}
+
+.signup__box-form-btn,
+.signup__bottom-btn {
+  margin-top: 0.5rem;
+  border: 1px solid black;
+  width: 100%;
+  font-size: 1rem;
+  padding: 0.6rem 0;
+  background-color: #f0be49;
+  margin-bottom: 0.8rem;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.signup__bottom-btn {
+  font-size: 0.9rem;
+  background-color: #f0eef2;
+}
+
+.signup__bottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.signup__bottom-perm {
+  font-size: 0.8rem;
+  text-align: center;
+  margin-bottom: 0.5rem;
+}

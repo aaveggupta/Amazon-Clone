@@ -1,0 +1,89 @@
+.checkout {
+  margin-top: 3rem;
+  padding: 2rem;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  min-height: 93vh;
+  background-color: rgb(234, 237, 237);
+}
+
+.checkout__cart {
+  flex: 0.7;
+  margin-right: 2rem;
+  padding: 1rem;
+  background-color: white;
+}
+
+.checkout__subtotal {
+  flex: 0.3;
+  padding: 2rem 1rem;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.checkout__cart-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 0.5rem;
+}
+
+.checkout__cart-details-title {
+  font-weight: 400;
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+}
+
+.checkout__cart-details-price {
+  font-weight: 600;
+}
+
+.checkout__subtotal-title {
+  font-size: 1.3rem;
+  font-weight: 400;
+}
+
+.checkout__subtotal-price {
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.checkout__subtotal-subtitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(7, 126, 99);
+  margin-top: 0.2rem;
+  margin-bottom: 0.8rem;
+}
+
+.checkout__subtotal-button {
+  border: none;
+  background-color: #ffd814;
+  font-size: 1rem;
+  padding: 0.5rem 5rem;
+  border-radius: 3rem;
+  cursor: pointer;
+}
+
+.checkout__subtotal-button:hover {
+  transition: 200ms all ease-in;
+  background-color: #f3cd0f;
+}
+
+.checkout__cart-details-none {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 10rem;
+}
+
+.checkout__cart-details-none h2 {
+  font-weight: 400;
+  color: rgb(112, 112, 112);
+}

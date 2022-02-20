@@ -1,0 +1,105 @@
+.login-outer {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1.5rem;
+}
+
+.login__amazon-logo {
+  width: 10rem;
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+
+.login__box-form {
+  width: 100%;
+}
+
+.login__box {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: start;
+  width: 20rem;
+  border: 1px solid black;
+  height: 26.3rem;
+  padding: 1rem 1.2rem;
+}
+
+.login__box-form-email,
+.login__box-form-password {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.login__box-signin {
+  margin-bottom: 0.8rem;
+  font-size: 1.8rem;
+}
+
+.login__box-form-email-label,
+.login__box-form-password-label {
+  font-weight: 600;
+  margin-bottom: 0.4rem;
+}
+
+.login__box-form-email-input,
+.login__box-form-password-input {
+  width: 100%;
+  font-size: 0.9rem;
+  padding: 0.5rem 0.3rem;
+  outline: none;
+  margin-bottom: 0.5rem;
+}
+
+.login__box-form-btn,
+.login__bottom-btn,
+.login__bottom-btn-guest {
+  margin-top: 0.5rem;
+  border: 1px solid black;
+  width: 100%;
+  font-size: 1rem;
+  padding: 0.6rem 0;
+  background-color: #f0be49;
+  margin-bottom: 0.8rem;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login__bottom-btn {
+  font-size: 0.9rem;
+  background-color: #f0eef2;
+}
+
+.login__bottom-btn-guest {
+  margin-top: -0.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login__bottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.login__bottom-perm {
+  font-size: 0.8rem;
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
